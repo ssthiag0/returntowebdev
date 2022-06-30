@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #1C1C1C ;
+    padding: 20px 0;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.logo{
+    color: #FF0000	;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+}
+
+.menu a{
+    color: #FF0000	;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: 0.5s;
+
+}
+
+.menu a:hover{
+    color: #800000	;
+}
+
+.menu .btn-menu{
+    background-color: #B22222;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover{
+    background-color: #8B0000;
+    color: white;
+}
+
+/* Section Main
+*/
+
+section.main{
+    background-image: url('img/bgimagebk2.png');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: #C0C0C0;
+    font-size: 19px;
+    margin: 35px 0;
+}
+
+.main__cta button{
+    background-color: #B22222;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 22px;
+    border:0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main__cta button:hover{
+    background-color: #8B0000;
+    color: white;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    border-radius: 10px;
+    background-color: #1C1C1C;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+}
+
+.diferencial-single i{
+    color: #FF0000;
+    font-size: 40px;
+    margin-left:40%;
+}
+
+.diferencial-single h2{
+    color: #FF0000;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
